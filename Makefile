@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2021/12/05 22:38:33 by rpohlen          ###   ########.fr        #
+#    Updated: 2021/12/21 11:27:01 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,6 +78,8 @@ STR			= ft_split.c \
 			  ft_strtrim.c \
 			  ft_substr.c
 
+MATH		= ft_abs.c
+
 OTHER		= ft_atoi.c \
 			  ft_itoa.c \
 			  ft_realloc_byte.c
@@ -99,6 +101,7 @@ SRC			= $(addprefix char/, $(CHAR)) \
 			  $(addprefix mem/, $(MEM)) \
 			  $(addprefix put/, $(PUT)) \
 			  $(addprefix str/, $(STR)) \
+			  $(addprefix math/, $(MATH)) \
 			  $(addprefix other/, $(OTHER)) \
 			  $(addprefix gnl/, $(GNL)) \
 			  $(addprefix printf/, $(printf))
