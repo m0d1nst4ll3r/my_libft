@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 17:34:18 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/21 11:45:43 by rpohlen          ###   ########.fr       */
+/*   Updated: 2021/12/21 16:36:13 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,9 @@ int		ft_isalnum(char c);
 int		ft_isalpha(char c);
 int		ft_isascii(char c);
 int		ft_isdigit(char c);
+int		ft_ishex(char c);
 int		ft_isprint(char c);
+int		ft_isspace(char c);
 char	ft_tolower(char c);
 char	ft_toupper(char c);
 

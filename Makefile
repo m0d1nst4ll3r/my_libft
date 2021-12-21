@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2021/12/21 11:27:01 by rpohlen          ###   ########.fr        #
+#    Updated: 2021/12/21 16:36:27 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,9 @@ CHAR		= ft_isalnum.c \
 			  ft_isalpha.c \
 			  ft_isascii.c \
 			  ft_isdigit.c \
+			  ft_ishex.c \
 			  ft_isprint.c \
+			  ft_isspace.c \
 			  ft_tolower.c \
 			  ft_toupper.c
 
