@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2021/12/21 16:36:27 by rpohlen          ###   ########.fr        #
+#    Updated: 2021/12/22 14:06:14 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,6 +47,7 @@ PUT			= ft_putchar.c \
 			  ft_putendl.c \
 			  ft_putendl_fd.c \
 			  ft_putnbr.c \
+			  ft_putnbr_base.c \
 			  ft_putnbr_fd.c \
 			  ft_putstr.c \
 			  ft_putstr_fd.c
@@ -83,6 +84,9 @@ STR			= ft_split.c \
 MATH		= ft_abs.c
 
 OTHER		= ft_atoi.c \
+			  ft_atoi_base.c \
+			  ft_convert_base.c \
+			  ft_convert_base2.c \
 			  ft_itoa.c \
 			  ft_realloc_byte.c
 

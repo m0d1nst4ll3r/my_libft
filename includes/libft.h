@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 17:34:18 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/21 16:36:13 by rpohlen          ###   ########.fr       */
+/*   Updated: 2021/12/22 14:07:13 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putendl(const char *s);
 void	ft_putendl_fd(const char *s, int fd);
 void	ft_putnbr(int n);
+void	ft_putnbr_base(int n, const char *base);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr(const char *s);
 void	ft_putstr_fd(const char *s, int fd);
@@ -102,6 +103,9 @@ int		ft_abs(int val);
 
 //	other
 int		ft_atoi(const char *str);
+int		ft_atoi_base(const char *str, const char *base);
+int		ft_convert_base(const char *nb,
+			const char *basefrom, const char *baseto);
 char	*ft_itoa(int n);
 char	*ft_realloc_byte(char *old, char c);
 
