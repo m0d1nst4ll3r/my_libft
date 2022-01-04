@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2021/12/23 17:39:12 by rpohlen          ###   ########.fr        #
+#    Updated: 2022/01/04 17:31:04 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,6 +79,7 @@ STR			= ft_split.c \
 			  ft_strrchr.c \
 			  ft_strstr.c \
 			  ft_strtrim.c \
+			  ft_strxcmp.c \
 			  ft_substr.c
 
 MATH		= ft_abs.c
