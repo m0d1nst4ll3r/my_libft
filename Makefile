@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2021/12/22 14:06:14 by rpohlen          ###   ########.fr        #
+#    Updated: 2021/12/23 17:39:12 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,11 +83,19 @@ STR			= ft_split.c \
 
 MATH		= ft_abs.c
 
+GRAPH		= get_rgb.c \
+			  get_r.c \
+			  get_g.c \
+			  get_b.c \
+			  get_gradient.c \
+			  get_gradient_palette.c
+
 OTHER		= ft_atoi.c \
 			  ft_atoi_base.c \
 			  ft_convert_base.c \
 			  ft_convert_base2.c \
 			  ft_itoa.c \
+			  ft_pendulum.c \
 			  ft_realloc_byte.c
 
 GNL			= get_next_line.c \

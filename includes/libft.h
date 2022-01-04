@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 17:34:18 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/22 14:07:13 by rpohlen          ###   ########.fr       */
+/*   Updated: 2021/12/23 17:40:09 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,12 +101,21 @@ char	*ft_substr(const char *s, unsigned int start, size_t len);
 //	math
 int		ft_abs(int val);
 
+//	graph
+int		get_rgb(int r, int g, int b);
+int		get_r(int rgb);
+int		get_g(int rgb);
+int		get_b(int rgb);
+int		get_gradient(int color1, int color2, float ratio);
+int		*get_gradient_palette(int *colors, int color_count, int size);
+
 //	other
 int		ft_atoi(const char *str);
 int		ft_atoi_base(const char *str, const char *base);
 int		ft_convert_base(const char *nb,
 			const char *basefrom, const char *baseto);
 char	*ft_itoa(int n);
+int		ft_pendulum(int len, int val);
 char	*ft_realloc_byte(char *old, char c);
 
 //	gnl
