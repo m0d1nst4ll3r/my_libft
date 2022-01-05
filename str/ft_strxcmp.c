@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 17:16:19 by rpohlen           #+#    #+#             */
-/*   Updated: 2022/01/04 17:30:22 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/05 16:07:59 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 |
 |	Checks for partial completion.
 |
-|	If [partial] is a partial copy of [complete], returns 1, else 0.
+|	If [partial] is a partial copy of [complete], returns 0, else 1.
 |
 |	Note that an empty string causes a 0 return, as it is not counted
 |		as a partial copy.
@@ -48,6 +48,6 @@ int	ft_strxcmp(const char *complete, const char *partial)
 		partial++;
 	}
 	if (*partial && *complete != *partial)
-		return (0);
-	return (1);
+		return (1);
+	return (0);
 }
