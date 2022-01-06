@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 17:34:18 by rpohlen           #+#    #+#             */
-/*   Updated: 2022/01/04 17:30:53 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/06 16:56:29 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,6 +98,8 @@ char	*ft_strstr(const char *haystack, const char *needle);
 char	*ft_strtrim(const char *s, const char *set);
 int		ft_strxcmp(const char *complete, const char *partial);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
+int		ft_isint(const char *s);
+int		ft_isfloat(const char *s);
 
 //	math
 int		ft_abs(int val);
