@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2022/01/06 16:55:43 by rpohlen          ###   ########.fr        #
+#    Updated: 2022/01/06 18:02:23 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,7 +84,8 @@ STR			= ft_split.c \
 			  ft_isint.c \
 			  ft_isfloat.c
 
-MATH		= ft_abs.c
+MATH		= ft_abs.c \
+			  ft_fpow.c
 
 GRAPH		= get_rgb.c \
 			  get_r.c \
@@ -95,6 +96,7 @@ GRAPH		= get_rgb.c \
 
 OTHER		= ft_atoi.c \
 			  ft_atoi_base.c \
+			  ft_atof.c \
 			  ft_convert_base.c \
 			  ft_convert_base2.c \
 			  ft_itoa.c \

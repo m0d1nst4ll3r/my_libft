@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_fpow.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/09 22:27:20 by rpohlen           #+#    #+#             */
-/*   Updated: 2022/01/06 17:40:50 by rpohlen          ###   ########.fr       */
+/*   Created: 2022/01/06 18:00:23 by rpohlen           #+#    #+#             */
+/*   Updated: 2022/01/06 18:05:01 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *str)
+float	ft_fpow(float n, float e)
 {
-	size_t	i;
+	float	pow;
 
-	if (!str)
-		return (0);
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	pow = 1;
+	while (e > 0)
+	{
+		pow = pow * n;
+		e--;
+	}
+	return (pow);
 }
