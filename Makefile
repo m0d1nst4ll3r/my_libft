@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2022/01/06 18:02:23 by rpohlen          ###   ########.fr        #
+#    Updated: 2022/01/08 23:08:00 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -121,6 +121,7 @@ SRC			= $(addprefix char/, $(CHAR)) \
 			  $(addprefix put/, $(PUT)) \
 			  $(addprefix str/, $(STR)) \
 			  $(addprefix math/, $(MATH)) \
+			  $(addprefix graph/, $(GRAPH)) \
 			  $(addprefix other/, $(OTHER)) \
 			  $(addprefix gnl/, $(GNL)) \
 			  $(addprefix printf/, $(printf))
