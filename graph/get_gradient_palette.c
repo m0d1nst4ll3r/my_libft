@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/23 17:38:46 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/23 17:40:48 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/21 03:43:48 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,12 +85,12 @@ int	*get_gradient_palette(int *colors, int color_count, int size)
 	{
 		palette[i] = get_gradient(colors[j], colors[j + 1], ratio);
 		ratio += ratio_step;
-		if (ratio > 1)
+		i++;
+		if (i < size - 1 && ratio > 1)
 		{
 			ratio--;
 			j++;
 		}
-		i++;
 	}
 	return (palette);
 }
