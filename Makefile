@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2022/01/08 23:08:00 by rpohlen          ###   ########.fr        #
+#    Updated: 2022/01/26 22:24:38 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -134,7 +134,7 @@ CC			= cc
 LIB			= ar rcs
 RM			= rm -f
 
-CFLAGS		= -Wall -Wextra -Werror -I includes/
+CFLAGS		= -Wall -Wextra -Werror -Wno-unused-result -O3 -I includes/
 
 ${NAME}:	${OBJS}
 			${LIB} $@ $?
