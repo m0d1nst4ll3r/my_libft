@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 17:34:18 by rpohlen           #+#    #+#             */
-/*   Updated: 2022/01/06 18:02:41 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/28 07:40:29 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,6 +116,7 @@ int		*get_gradient_palette(int *colors, int color_count, int size);
 //	other
 int		ft_atoi(const char *str);
 int		ft_atoi_base(const char *str, const char *base);
+int		ft_atoi_strict(const char *s, int *n);
 float	ft_atof(const char *s);
 int		ft_convert_base(const char *nb,
 			const char *basefrom, const char *baseto);
