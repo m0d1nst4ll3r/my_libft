@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 15:08:46 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/04 14:07:31 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/28 08:31:07 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,7 +106,7 @@ typedef struct s_pfflags
 //	ft_printf_utils.c
 char		*ft_strchr(char *s, char c);
 char		ft_get_char(int i, char type);
-int			ft_atoi(char *s, int *i);
+int			ft_atoi_printf(char *s, int *i);
 long int	ft_abs(long int i);
 
 //	ft_printf_utils_list.c

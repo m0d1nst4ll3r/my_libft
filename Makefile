@@ -6,7 +6,7 @@
 #    By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 17:00:48 by rpohlen           #+#    #+#              #
-#    Updated: 2022/01/28 07:40:53 by rpohlen          ###   ########.fr        #
+#    Updated: 2022/01/28 08:29:21 by rpohlen          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -125,7 +125,7 @@ SRC			= $(addprefix char/, $(CHAR)) \
 			  $(addprefix graph/, $(GRAPH)) \
 			  $(addprefix other/, $(OTHER)) \
 			  $(addprefix gnl/, $(GNL)) \
-			  $(addprefix printf/, $(printf))
+			  $(addprefix printf/, $(PRINTF))
 
 OBJS		= ${SRC:.c=.o}
 

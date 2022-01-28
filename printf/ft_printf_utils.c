@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 14:10:35 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/04 14:07:21 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/28 08:30:53 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ char	ft_get_char(int i, char type)
 
 //	Modified atoi which refuses any initial 0
 //	Modifies the index directly
-int	ft_atoi(char *s, int *i)
+int	ft_atoi_printf(char *s, int *i)
 {
 	int	res;
 

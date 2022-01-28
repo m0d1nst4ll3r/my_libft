@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 18:00:18 by rpohlen           #+#    #+#             */
-/*   Updated: 2021/12/05 14:58:42 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/01/28 08:31:57 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,20 +52,20 @@ static void	update_flag(char *s, t_pfflags *flags, int *i)
 	else if (s[*i] == '0')
 	{
 		(*i)++;
-		flags->zero = ft_atoi(s, i);
+		flags->zero = ft_atoi_printf(s, i);
 	}
 	else if (s[*i] == '-')
 	{
 		(*i)++;
-		flags->minus = ft_atoi(s, i);
+		flags->minus = ft_atoi_printf(s, i);
 	}
 	else if (s[*i] == '.')
 	{
 		(*i)++;
-		flags->dot = ft_atoi(s, i);
+		flags->dot = ft_atoi_printf(s, i);
 	}
 	else if (s[*i] >= '1' && s[*i] <= '9')
-		flags->width = ft_atoi(s, i);
+		flags->width = ft_atoi_printf(s, i);
 }
 
 /* -------------------------------------------------------------------- **
