@@ -6,7 +6,7 @@
 /*   By: rpohlen <rpohlen@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/27 18:26:28 by rpohlen           #+#    #+#             */
-/*   Updated: 2022/01/28 07:41:13 by rpohlen          ###   ########.fr       */
+/*   Updated: 2022/12/12 16:03:08 by rpohlen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@ int	ft_atoi_strict(const char *s, int *n)
 {
 	char	neg;
 
-	if (!s || !n || !*s)
+	*n = 0;
+	if (!s || !n || !*s || (*s == '-' && !*(s + 1)))
 		return (1);
 	neg = 1;
-	*n = 0;
 	if (*s == '-')
 	{
 		neg = -1;
